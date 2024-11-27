@@ -1,0 +1,1216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+--blue: #00486D;
+--white:#F2F6F7;
+--whites:#ffffff;
+--b: #99B6C5;
+--d: #002B41;
+--n: #E4ECF0;
+   --blues: #2196f3;
+
+ --font:'DM Serif Text', sans-serif;
+--fonts:'DM Sans', sans-serif;
+
+}
+
+.container {
+  max-width: 1350px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+
+}
+
+.tex1{
+color: var(--b);
+	font-family: var(--fonts);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.94;
+
+}
+.text1{
+	display: flex;
+height: 51px;
+background:  var(--blue);
+
+align-items: center;
+justify-content: center;
+
+
+}
+header{
+	background: var(--whites);
+
+
+}
+header .container {
+    display: flex;
+    align-items: center;
+    height: 107px;
+   
+}
+.logo{
+
+text-decoration: none;
+	color: var(--blue);
+	font-size: 30px;
+
+}
+.nav-list{
+
+	display: flex;
+	margin-left: 40px;
+	gap:32px;
+}
+
+.nav-list li{
+
+     list-style: none;
+
+   
+}
+
+.nav-list a {
+	text-decoration: none;
+color: var(--blue);
+font-family: var(--fonts);
+font-size: 19px;
+line-height: 1.84;
+}
+.nav-list a:hover{
+	text-decoration: underline;
+	color: var(--blues);
+}
+.header-contacts{
+margin-left: auto;
+	
+}
+.header-contacts a{ 
+text-decoration: none;
+color: var(--blue);
+font-family: var(--fonts);
+font-weight: 400px;
+font-size: 17px;
+line-height: 2.05;
+ }
+.header-contacts a:hover{
+text-decoration: underline;
+color: var(--blues);
+}
+
+.hero {
+    height: 753px;
+    display: flex;
+    justify-content: center;
+    position: relative; 
+    background-color: var(--n); 
+}
+
+.hero-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    max-width: 1270px; 
+    width: 100%;
+    position: relative; 
+    z-index: 2;
+}
+
+.text2 h1 {
+    color: var(--blue);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 1.2;
+    margin-top: 0;
+    max-width: 394px;
+    padding-top: 155px;
+}
+
+.text2 p {
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-top: 25px;
+    margin-bottom: 35px;
+    max-width: 563px;
+}
+
+.button12 {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--blue);
+    color: var(--whites);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 176px;
+}
+
+.im12 {
+    width: 595px;
+    height: 753px;
+    object-fit: cover;
+    margin-left: 80px;
+    margin-top:110px;
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+.bg1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 576px;
+    height: 753px;
+    background: var(--blue);
+    z-index: 1; 
+}
+
+.img1 {
+    position: absolute;
+    top: 10px; 
+    left: -13px; 
+    z-index: 3; 
+}
+.img12 {
+    position: absolute;
+    top: 40px; 
+    left: -13px; 
+    z-index: 3; 
+}
+.img3{
+	position: absolute;
+    bottom: -116px; /* Налаштуйте значення для розміщення крапок під картинкою */ 
+    left: 718px; 
+    z-index: 1;
+}
+
+
+
+
+
+
+
+.button1{
+
+	margin-left: 56px;
+	color: var(--whites);
+background: var(--blue);
+padding: 12px 24px;
+font-family: var(--fonts);
+font-weight: 400px;
+font-size: 18px;
+line-height: 1.94;
+}
+.button1:hover{
+	cursor: pointer;
+}
+.button2{
+
+
+	color: var(--whites);
+background: var(--blue);
+padding: 12px 24px;
+font-family: var(--fonts);
+font-weight: 400;
+font-size: 18px;
+line-height: 1.94;
+}
+.button2:hover{
+	cursor: pointer;
+}
+.text3{
+	max-width: 635px;
+margin-top: 160px;
+margin-bottom: 56px;
+
+}
+.text3 h2{
+color: var(--blue);
+font-family: var(--font);
+font-weight: 400;
+font-size: 44px;
+line-height: 1.2;
+padding-bottom: 25px;
+
+
+}
+.text3 p{
+	color: var(--blue);
+	font-family: var(--fonts);
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 1.75;
+
+
+}
+.areas-of-practice {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+   
+}
+.areas-of-practice ul {
+    display: flex;
+    list-style: none;
+    gap: 40px; 
+    padding: 0;
+
+}
+
+.card {
+
+	width: 397px;
+	height: 442px;
+    background: var(--whites);
+    padding: 20px; 
+    border-radius: 8px; 
+     box-shadow: 0 12px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 300px; /
+    transition: transform 0.3s ease; /* Ефект збільшення при наведенні */
+}
+
+.card:hover {
+    transform: translateY(-4px); /* Легке підняття картки при наведенні */
+}
+
+.card img {
+	margin-top: 41px;
+    margin-bottom: 40px; 
+}
+
+.card h3 {
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+    margin-bottom: 12px; 
+}
+
+.card p {
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+    margin-bottom: 36px;
+}
+
+.card a {
+    text-decoration: none;
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.84;
+    display: flex;
+    align-items: center;
+    gap: 4px; 
+}
+.card a:hover{
+	color: var(--blues);
+}
+.card span {
+    color: var(--blue);
+}
+.card span:hover{
+	color: var(--blues);
+}
+
+
+.col{
+	margin-top:68px;
+}
+.cola{
+	margin-top: 30px;
+}
+.custom-services {
+    position: relative;
+    margin-top: 160px;
+}
+
+.image-container {
+
+    position: relative; 
+}
+
+
+
+
+.custom-services img {
+    height: auto;
+    border-radius: 4px;
+}
+
+.custom-services-text {
+    position: absolute;
+    top: 29.1%;
+    right: 0;
+    transform: translate(-80px, -10px);
+    background: var(--blue);
+    width: 423px;
+    height: 491px;
+ padding-top: 53px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    z-index: 3; 
+    padding-left: 56px;
+}
+
+.custom-services-text h2 {
+	max-width: 220px;
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 1.2;
+    margin-bottom:  23px;
+ 
+}
+
+.custom-services-text p {
+	max-width: 309px;
+    color: var(--white);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.84;
+    margin-bottom: 60px ;
+}
+
+.button3 {
+
+    color: var(--blue);
+    background: var(--white);
+    padding: 12px 24px;
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.94;
+}
+.button3:hover{
+	cursor: pointer;
+}
+
+.bagr {
+    position: absolute;
+    top: 0;
+    right: -59px; 
+    background: var(--white);
+    width: 140px;
+    height: 680px;
+    z-index: 1; 
+}
+
+.dots {
+    position: absolute;
+    top: 130px; 
+    right: 20px; 
+    z-index: 2; 
+}
+
+
+.st {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0; 
+    position: relative; /* Додати позиціювання для .st */
+}
+
+.text4 {
+    text-align: center;
+    position: relative;
+    max-width: 800px; 
+}
+
+.text4 h2 {
+    color: var(--blue);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.6;
+    padding-top: 160px;
+}
+
+.text4 p {
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 2.33;
+}
+
+
+
+
+
+
+
+
+
+
+.recent-articles {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+}
+
+.recent-articles ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.REC {
+    color: var(--blue);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 60.2px;
+}
+
+.photo {
+    width: 395px;
+    height: 510px;
+    background: var(--whites);
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.photo h3 {
+    padding-top: 39px;
+    padding-left: 32px;
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.28;
+}
+
+.photo p {
+    max-width: 294px;
+    padding-top: 18px;
+    padding-left: 32px;
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.photo a {
+    padding-top: 30px;
+    padding-left: 32px;
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.84;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.photo a:hover {
+    color: var(--blues);
+}
+
+.photo span.arrow {
+    margin-left: 5px;
+    color: var(--blue);
+}
+
+.photo span:hover {
+    color: var(--blues);
+}
+
+.cola {
+    margin-top: 34px;
+}
+
+.recent-articles .slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 80%;
+    max-width: 395px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    background: var(--whites);
+}
+
+.recent-articles {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 0;
+    align-items: flex-start; /* Додаємо це, щоб вирівняти весь вміст по лівому краю */
+}
+
+.recent-articles ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.REC {
+    color: var(--blue);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 1.2;
+    margin-bottom: 60.2px;
+    text-align: left; /* Вирівнюємо текст по лівому краю */
+}
+
+.photo {
+    width: 395px;
+    height: 510px;
+    background: var(--whites);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Тінь знизу */
+}
+
+.photo img {
+    width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+.photo h3 {
+    padding-top: 39px; 
+    padding-left: 32px;  
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.28;
+}
+
+.photo p {
+    max-width: 294px;
+    padding-top: 18px;
+    padding-left: 32px; 
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.photo a {
+    padding-top: 30px;
+    padding-left: 32px;
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.84;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.photo a:hover {
+    color: var(--blues);
+}
+
+.photo span.arrow {
+    margin-left: 5px;
+    color: var(--blue);
+}
+
+.photo span:hover {
+    color: var(--blues);
+}
+
+.cola {
+    margin-top: 34px;
+}
+
+.recent-articles .slider {
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    justify-content: space-between; /* Додано для розташування кнопок ліворуч і праворуч */
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.slide {
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 80%;
+    max-width: 395px;
+    height: auto;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--whites);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); /* Тінь лише знизу */
+}
+
+.slider button {
+    background: white;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue);
+    font-size: 18px;
+    z-index: 10; /* Додаємо z-index для стрілок */
+}
+
+.slider .prev {
+    margin-right: 100px; /* Відстань між кнопкою і слайдом */
+}
+
+.slider .next {
+    margin-left: 10px; /* Відстань між кнопкою і слайдом */
+}
+
+.slide {
+    display: none; /* Приховати всі слайди за замовчуванням */
+}
+
+.slide:first-child {
+    display: block; /* Показати перший слайд за замовчуванням */
+}
+
+
+.slide {
+    display: none; /* Приховати всі слайди за замовчуванням */
+}
+
+.slide:first-child {
+    display: block; /* Показати перший слайд за замовчуванням */
+}
+
+
+.cta{
+	background: var(--n);
+	height: 545px;
+	
+}
+
+.ctas{
+text-align: center;
+	padding: 160px 0;
+
+
+}
+.ctas h2{
+	color: var(--blue);
+	font-family: var(--font);
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 1.2;
+}
+.ctas  p{
+	padding-top: 19px;
+	color: var(--blue);
+	font-weight:400;
+	font-size:23px;
+	line-height: 1.82;
+}
+.ctas button{
+	margin-top:41px;
+
+}
+footer {
+    height: 660px;
+    background: var(--blue);
+    padding-top: 120px;
+    padding-left: 45px;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-left, .Get {
+    width: 400px;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.social-links a:first-child {
+    margin-top: 64px; /* Встановлює відстань у 64px для першого елемента (Facebook) */
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* Відстань між іконкою та текстом */
+    text-decoration: none;
+    color: var(--b);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75;
+}
+
+.logos {
+    text-decoration: none;
+    font-size: 30px;
+    color: var(--whites);
+}
+
+.footer-address {
+    color: var(--b);
+}
+
+.footer-address p, .footer-address a {
+    color: var(--b);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.84;
+}
+
+.Get {
+    color: var(--white);
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.3;
+    max-width: 389px;
+    margin-top: 0;
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    background-color: var(--b);
+    border-radius: 1px;
+    overflow: hidden;
+    max-width: 397px;
+    padding-right: 9px;
+    margin-top: 20px;
+}
+
+.newsletter-input {
+
+    flex: 1;
+    padding: 11px 20px;
+    border: none;
+    outline: none;
+    background: var(--b);
+    color: var(--white);
+}
+
+.newsletter-input::placeholder {
+    color: var(--blue);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 1.84;
+}
+
+.newsletter-button {
+    width: 40px;
+    background: var(--blue);
+    color: var(--white);
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.t {
+    background: var(--d);
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; 
+}
+
+.ta {
+    color: var(--b);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+    position: absolute; 
+    left: 24px; 
+     top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.taa {
+    display: flex;
+    gap: 16px;
+    position: absolute; 
+    right: 24px; 
+     top: 50%; 
+    transform: translateY(-50%); 
+}
+
+.taa a {
+    text-decoration: none;
+    color: var(--b);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+/* Адаптація для планшетів (до 768px) */
+@media (max-width: 768px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 20px 0;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-list li {
+        width: 100%;
+    }
+
+    .nav-list a {
+        font-size: 18px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .text2 h1 {
+        font-size: 32px;
+        padding-top: 20px;
+    }
+
+    .text2 p {
+        font-size: 16px;
+        max-width: 100%;
+    }
+
+    .im12 {
+        width: 100%;
+        height: auto;
+    }
+
+    .bg1 {
+        position: static;
+        width: 100%;
+        height: auto;
+        background: var(--blue);
+        z-index: 1;
+    }
+
+    .img1, .img12, .img3 {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .img3 {
+        margin-top: 20px;
+    }
+
+    .areas-of-practice ul {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .custom-services img {
+        width: 100%;
+        height: auto;
+    }
+
+    .custom-services-text {
+        position: static;
+        transform: none;
+        width: 100%;
+        padding: 20px;
+        text-align: center;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        padding: 20px 0;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .taa {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 16px;
+    }
+}
+
+/* Адаптація для мобільних пристроїв (до 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .logo {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .nav-list li {
+        width: 100%;
+    }
+
+    .nav-list a {
+        font-size: 18px;
+        padding: 10px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-content {
+        padding: 10px;
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .text2 h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .text2 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .text3 h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text3 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .cta h2 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    footer .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 10px 0;
+    }
+
+    .footer-left, .Get {
+        width: 100%;
+        text-align: center;
+    }
+
+    .newsletter {
+        padding: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .newsletter-input {
+        width: 100%;
+    }
+
+    .slider button {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .bg1 {
+        position: static;
+        width: 100%;
+        height: auto;
+        background: var(--blue);
+        z-index: 1;
+    }
+
+    .img1, .img12, .img3 {
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .img3 {
+        margin-top: 20px;
+    }
+
+    .custom-services-text {
+        position: static;
+        transform: none;
+        width: 100%;
+        padding: 20px;
+        background: var(--blue);
+        border-radius: 2px;
+        box-sizing: border-box;
+        z-index: 3;
+        text-align: center;
+    }
+
+    .taa {
+        position: static;
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 16px;
+    }
+}
+
+
+
+
+
+

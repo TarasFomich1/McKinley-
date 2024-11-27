@@ -1,0 +1,90 @@
+// _header.scss
+@import 'variables';
+
+.text1 {
+  display: flex;
+  height: 51px;
+  background: var(--blue);
+  align-items: center;
+  justify-content: center;
+
+  .tex1 {
+    color: var(--b);
+    font-family: var(--fonts);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.94;
+  }
+}
+
+header {
+  background: var(--whites);
+
+  .container {
+    display: flex;
+    align-items: center;
+    height: 107px;
+  }
+
+  .logo {
+    text-decoration: none;
+    color: var(--blue);
+    font-size: 30px;
+  }
+
+  .nav-list {
+    display: flex;
+    margin-left: 40px;
+    gap: 32px;
+
+    li {
+      list-style: none;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--blue);
+      font-family: var(--fonts);
+      font-size: 19px;
+      line-height: 1.84;
+
+      &:hover {
+        text-decoration: underline;
+        color: var(--blues);
+      }
+    }
+  }
+
+  .header-contacts {
+    margin-left: auto;
+
+    a {
+      text-decoration: none;
+      color: var(--blue);
+      font-family: var(--fonts);
+      font-weight: 400px;
+      font-size: 17px;
+      line-height: 2.05;
+
+      &:hover {
+        text-decoration: underline;
+        color: var(--blues);
+      }
+    }
+  }
+}
+
+.button1 {
+  margin-left: 56px;
+  color: var(--whites);
+  background: var(--blue);
+  padding: 12px 24px;
+  font-family: var(--fonts);
+  font-weight: 400px;
+  font-size: 18px;
+  line-height: 1.94;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
